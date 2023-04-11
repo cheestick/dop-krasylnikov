@@ -11,6 +11,15 @@
   border: 0;
 }
 
+.flow > * {
+  outline: 2px solid rgb(216, 232, 250);
+}
+
+.container {
+  margin-inline: auto;
+  max-width: 80rem;
+}
+
 .flex {
   display: flex;
   gap: var(--gap, 1rem);
@@ -18,4 +27,16 @@
 
 .grid {
   display: grid;
+}
+
+.block {
+  display: block;
+}
+
+.relative {
+  position: relative;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
