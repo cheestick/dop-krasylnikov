@@ -8,7 +8,7 @@
     <script type="module" src="./js/main.js" defer></script>
   </head>
   <body>
-    <header>
+    <header class="container header flex" style="align-items: center">
       <nav>
         <ul class="flex" style="--gap: 3rem">
           <li><a href="#">About</a></li>
@@ -16,28 +16,62 @@
           <li><a href="#">Contacts</a></li>
         </ul>
       </nav>
+      <div class="lang-nav flex" style="place-content: center">
+        <button class="lang-button lang-button--active">EN</button>
+        <!-- <span style="align-self: center; transform: translateY(-2px)">|</span> -->
+        <button class="lang-button">UK</button>
+      </div>
     </header>
 
-    <main>
-      <section></section>
+    <main class="container flex">
+      <section class="flex relative home">
+        <div
+          class="flex uppercase dop-header"
+          style="flex-direction: column-reverse; place-content: center"
+        >
+          <h1>Director of Photography</h1>
+          <p>Krasylnikov Denys</p>
+        </div>
+        <div class="home-image">
+          <img src="./assets/images/den-armor-man.jpeg" alt="Krasylnikov" />
+        </div>
+      </section>
       <section></section>
     </main>
 
-    <footer class="flex">
-      <!-- phone telegram email fb insta email -->
-      <div>+380 63 799 72 84</div>
-      <div>@krasylnikovDOP</div>
-      <div>krasylnikov.dop@gmail.com</div>
-      <div>
-        <a href="https://www.instagram.com/krasylnikov_den/"
-          ><span class="sr-only1">Instagram</span></a
-        >
-      </div>
-      <div>
-        <a href="https://www.facebook.com/profile.php?id=100004879540116"
-          ><span class="sr-only1">Facebook</span></a
-        >
-      </div>
+    <footer class="container">
+      <address class="flex footer-contacts">
+        <div><a href="tel:+380637997284">+380 63 799 72 84</a></div>
+        <div>
+          <a href="mailto:krasylnikov.dop@gmail.com"
+            >krasylnikov.dop@gmail.com</a
+          >
+        </div>
+        <div>
+          <a
+            href="https://t.me/MaksymChystiakov"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><span class="sr-only1">@krasylnikovDOP</span></a
+          >
+        </div>
+        <div>
+          <a
+            href="https://www.instagram.com/krasylnikov_den/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><span class="sr-only1">Instagram</span></a
+          >
+        </div>
+        <div>
+          <a
+            href="https://www.facebook.com/profile.php?id=100004879540116"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><span class="sr-only1">Facebook</span></a
+          >
+        </div>
+      </address>
     </footer>
   </body>
 </html>
