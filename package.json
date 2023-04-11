@@ -1,0 +1,14 @@
+{
+  "name": "krasylnilov-dop",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite serve src",
+    "build": "vite build src --outDir ../dist ",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.2.0"
+  }
+}
