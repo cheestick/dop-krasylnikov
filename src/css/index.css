@@ -19,9 +19,11 @@
 body {
   display: flex;
   flex-direction: column;
-  place-items: center;
+  align-items: center;
+  justify-content: space-between;
   min-width: 320px;
   min-height: 100vh;
+  overflow: hidden;
 }
 
 a {
