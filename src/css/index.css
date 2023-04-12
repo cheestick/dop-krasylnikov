@@ -72,20 +72,11 @@ a:hover {
 }
 
 .home > * + * {
-  margin-left: 15rem;
+  /* margin-left: 15rem; */
 }
 
 .main {
   overflow-x: scroll;
-}
-
-.scroll-container {
-  scroll-behavior: smooth;
-  scroll-snap-type: x mandatory;
-}
-
-.scroll-container > * {
-  scroll-snap-align: center center;
 }
 
 .dop-header {

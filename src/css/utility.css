@@ -45,3 +45,12 @@
 .uppercase {
   text-transform: uppercase;
 }
+
+.scroll-container {
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+}
+
+.scroll-container > * {
+  scroll-snap-align: center center;
+}
