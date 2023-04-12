@@ -31,8 +31,6 @@ body {
   justify-content: space-between;
   min-width: 320px;
   min-height: 100vh;
-  /* overflow: hidden; */
-  /* overflow-x: scroll; */
 }
 
 a {
@@ -46,8 +44,6 @@ a:hover {
 }
 
 .header {
-  /* position: fixed; */
-  /* scroll-margin-top: 10rem; */
   margin-block: clamp(0.75rem, 5vw, 1.5rem);
 }
 
@@ -72,7 +68,6 @@ a:hover {
 }
 
 .page {
-  /* max-height: 70vh; */
   min-width: 100%;
 }
 
@@ -81,7 +76,6 @@ a:hover {
 }
 
 .main {
-  /* min-height: 100%; */
   overflow-x: scroll;
 }
 
