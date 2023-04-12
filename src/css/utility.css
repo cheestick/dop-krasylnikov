@@ -22,7 +22,18 @@
 .container {
   margin-inline: auto;
   width: 100%;
-  max-width: 80rem;
+}
+
+@media (min-width: 75rem) {
+  .container {
+    max-width: 70rem;
+  }
+}
+
+@media (min-width: 90rem) {
+  .container {
+    max-width: 85rem;
+  }
 }
 
 .flex {
