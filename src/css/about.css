@@ -1,0 +1,35 @@
+.about-content {
+  position: absolute;
+  max-width: 50ch;
+  margin-inline: 4rem;
+  padding-inline: 4rem;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+  background-color: hsl(var(--clr-black) / 0.6);
+  backdrop-filter: blur(1.2rem);
+
+  font-size: 1.1rem;
+  line-height: 1.66;
+}
+
+.contrast-heading {
+  max-width: max-content;
+  margin-top: -3rem;
+  margin-bottom: 1.5rem;
+  padding: 3rem 2rem 0.15rem 0.5rem;
+  color: hsl(var(--clr-white) / 0.85);
+  background-color: hsla(0, 78%, 50%, 0.849);
+  font-size: 1.7rem;
+}
+
+@media (min-width: 75rem) {
+  .about-content {
+    margin-top: 0rem;
+  }
+}
+
+@media (min-width: 90rem) {
+  .about-content {
+    margin-top: -5rem;
+  }
+}
