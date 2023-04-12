@@ -1,0 +1,8 @@
+.footer-contacts {
+  margin-block: clamp(0.75rem, 5vw, 1.5rem);
+}
+
+.footer-contacts a {
+  font-size: 1rem;
+  font-weight: 200;
+}

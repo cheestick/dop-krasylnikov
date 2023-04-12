@@ -71,55 +71,6 @@ a:hover {
   min-width: 100%;
 }
 
-.home > * + * {
-  /* margin-left: 15rem; */
-}
-
 .main {
   overflow-x: scroll;
-}
-
-.dop-header {
-  /* position: absolute; */
-  max-width: min-content;
-  /* aspect-ratio: 1; */
-  /* margin-left: 20rem; */
-  place-self: center;
-  padding-inline: 10rem;
-  padding-block: 4rem;
-  line-height: 1;
-  background-color: hsl(var(--clr-black) / 0.25);
-  backdrop-filter: blur(1.2rem);
-  /* border: 0.25rem solid hsl(var(--clr-white) / 0.1); */
-  /* box-shadow: -2rem -2rem 2rem hsl(var(--clr-white) / 0.1),
-    2rem 2rem 2rem hsl(var(--clr-white) / 0.1); */
-}
-
-.dop-header h1 {
-  font-size: 1.25rem;
-  font-weight: 100;
-}
-
-.dop-header p {
-  font-size: 3rem;
-  font-weight: 500;
-}
-
-.home-image {
-  box-shadow: rgba(31, 31, 35, 0.2) 0px 7px 29px 0px;
-}
-
-.image {
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
-  object-position: bottom;
-}
-
-.footer-contacts {
-  margin-block: clamp(0.75rem, 5vw, 1.5rem);
-}
-
-.footer-contacts a {
-  font-size: 1rem;
-  font-weight: 200;
 }
