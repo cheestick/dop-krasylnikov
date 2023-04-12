@@ -20,6 +20,10 @@
   scroll-snap-type: x mandatory;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -27,7 +31,7 @@ body {
   justify-content: space-between;
   min-width: 320px;
   min-height: 100vh;
-  overflow: hidden;
+  /* overflow: hidden; */
   /* overflow-x: scroll; */
 }
 
@@ -42,7 +46,9 @@ a:hover {
 }
 
 .header {
-  margin-block: 2rem;
+  /* position: fixed; */
+  /* scroll-margin-top: 10rem; */
+  margin-block: clamp(0.75rem, 5vw, 1.5rem);
 }
 
 .lang-nav {
@@ -65,12 +71,31 @@ a:hover {
   background-color: hsl(var(--clr-white) / 0.1);
 }
 
+.page {
+  /* max-height: 70vh; */
+  min-width: 100%;
+}
+
 .home > * + * {
   margin-left: 15rem;
 }
 
+.main {
+  /* min-height: 100%; */
+  overflow-x: scroll;
+}
+
+.scroll-container {
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+}
+
+.scroll-container > * {
+  scroll-snap-align: center center;
+}
+
 .dop-header {
-  position: absolute;
+  /* position: absolute; */
   max-width: min-content;
   /* aspect-ratio: 1; */
   /* margin-left: 20rem; */
@@ -99,8 +124,14 @@ a:hover {
   box-shadow: rgba(31, 31, 35, 0.2) 0px 7px 29px 0px;
 }
 
+.image {
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  object-position: bottom;
+}
+
 .footer-contacts {
-  margin-block: 2rem;
+  margin-block: clamp(0.75rem, 5vw, 1.5rem);
 }
 
 .footer-contacts a {
