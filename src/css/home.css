@@ -29,6 +29,7 @@
 }
 
 .home-image {
+  place-self: center;
   box-shadow: rgba(31, 31, 35, 0.2) 0px 7px 29px 0px;
 }
 
